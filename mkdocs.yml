@@ -91,12 +91,12 @@ plugins:
      archive_url_date_format: yyyy
      post_url_format: "{slug}"
 
-  - rss:
-       match_path: "docs/blog/posts/.*"
-       pretty_print: true
-       date_from_meta: 
-         as_creation: date.created
-         as_update: date.updated
+  # - rss:
+  #      match_path: "docs/blog/posts/.*"
+  #      pretty_print: true
+  #      date_from_meta: 
+  #        as_creation: date.created
+  #        as_update: date.updated
 
 
 ##########################################################################
