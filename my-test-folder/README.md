@@ -1,6 +1,10 @@
-# My README 
-Hey... This is a text file. 
+#  Welcome 
+Hi.  I'm Adam.  
 
-Maybe soon I will have a guide written? 
+Welcome to my very much still "under construction" site where I intend to document my homelabbing and self-hosting journey.  
 
-Probably will write down how I got this website started and how I can add to it, just so I can remember.  
+I have had friends and family ask me "hhow did you do _______" or "my _____ broke, can you help me fix it?" 
+
+Well... I hope I can and I hope that by documenting some of my trails and errors - and even a few successes 😂 - I can give others some insight into what I've chosen to run in my homelab along with some of the why and the how.  
+
+If you're interested... Come along on this journey with me! 

@@ -17,20 +17,13 @@ nav:
   - Welcome:
     - About: README.md   
     # - Stuff for Kurt: Welcome/kurt.md   
-    - Stuff for Kurt: kurt.md   
-  - Section2:
-    - More stuff: README2.md   
+    # - Stuff for Kurt: kurt.md   
+  # - Section2:
+  #   - More stuff: README2.md   
   - Blog: 
     - blog/index.md
   - Tags: tags.md
 
-
-## DO NOT CHANGE BELOW THIS LINE
-
-
-
-# Copyright
-# TBD
 
 
 
