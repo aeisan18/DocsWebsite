@@ -7,7 +7,7 @@ site_author: Adam Eisan
 repo_name: DocsWebsite
 repo_url: https://github.com/aeisan18/DocsWebsite
 edit_uri: edit/master/my-test-folder
-docs_dir: my-test-folder
+docs_dir: docs
 
 
 ##########################################################################
@@ -85,8 +85,23 @@ plugins:
   - tags:
       # tags_file: tags.md # line not needed anymore per documentation 
   - privacy
-  - blog
+  - blog:
+    #  blog_dir: .  # Use this only if you want the whoile site to be only a blog (no other nav sections) 
+     archive_date_format: yyyy # or MM/yyyy
+     archive_url_date_format: yyyy
+     post_url_format: "{slug}"
 
+  - rss:
+       match_path: "docs/blog/posts/.*"
+       pretty_print: true
+       date_from_meta: 
+         as_creation: date.created
+         as_update: date.updated
+
+
+##########################################################################
+# Extensions
+##########################################################################
 markdown_extensions:
   - pymdownx.highlight:
       anchor_linenums: true
@@ -115,6 +130,7 @@ markdown_extensions:
   - def_list
   - footnotes
   - meta
+  - md_in_html
   - toc:
       permalink: true
   - pymdownx.arithmatex:

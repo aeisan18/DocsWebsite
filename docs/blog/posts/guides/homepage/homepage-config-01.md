@@ -1,12 +1,19 @@
 ---
-date: 2025-03-23
+date: 
+  created: 2025-03-23
+  updated: 2025-03-24
+# readtime: 5
 categories:
-    - Guides
+  - Tech
+  - Guides
 tags: 
-    - How-to
-    - Homelab
-    - Docker
-    - Homepage
+  - How-to
+  - Homelab
+  - Docker
+  - Homepage
+authors:
+  - adam
+slug: hompage-1
 # draft: true
 ---
 
@@ -15,6 +22,8 @@ tags:
 
 ## What is Homepage? 
 Homepage is a beautiful and feature-rich dashboard for your homelab.  I use it to consolidate server and self-hosted services statuses, links to services and viarious API statistics from these servers and services all in one nice looking and fuctional dashboard. 
+
+<!-- more -->
 
 I use Homepage as my one-stop-shop for monitoring and accessing all my self-hosted homelab services.  It provides nice, glanceable info in a single pane of glass.  I can see server CPU or RAm utilization, if my services are up or down, key API info and more. With a single click it takes me right into whichever service I choose.  
 
