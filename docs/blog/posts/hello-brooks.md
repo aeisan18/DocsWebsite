@@ -14,4 +14,4 @@ tags:
 <!-- more -->
 Hey buddy!  Just wanted to write this page real quick to show you how quick I can do it and how EASY it is! 
 
-LOVE YOU!!! ❤️ 
+LOVE YOU!!! ❤️  
