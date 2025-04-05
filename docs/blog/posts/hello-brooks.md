@@ -4,6 +4,8 @@ date:
 #   updated: 2025-03-24
 categories:
     - Life
+authors:
+  - adam
 tags: 
     - Hello
 ---
