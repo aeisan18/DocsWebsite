@@ -30,6 +30,8 @@ The site will be mostly written in markdown.  The HTML will be converted from ma
 ## Supporting Apps
 I'm exploring various other markdown tools such as the app I'm writing this note in - [Obsidian](https://obsidian.md) - and syncing the markdown files with NextCloud (<i>also self hosted, by the way</i>).  
 
-I'm excited to 
+I'm excited to explore more about markdown and all the tools out there to make this site fun and informative for me as well as others.  
+
+Here we go!
 
 -----------------
