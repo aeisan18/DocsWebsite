@@ -1,5 +1,6 @@
 ---
-date created: 2025-04-05
+date:
+  created: 2025-04-05
 categories:
   - Tech
 tags:
