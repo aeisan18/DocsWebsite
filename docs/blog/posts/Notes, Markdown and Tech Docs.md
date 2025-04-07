@@ -1,6 +1,7 @@
 ---
 date:
   created: 2025-04-05
+  updated: 2025-04-07
 categories:
   - Tech
 tags:
@@ -34,5 +35,17 @@ I'm exploring various other markdown tools such as the app I'm writing this note
 I'm excited to explore more about markdown and all the tools out there to make this site fun and informative for me as well as others.  
 
 Here we go!
+
+-----------------
+## Linking
+
+You can make what is called a wiki link by adding double square brackets around words in Obsidian.  This is a link to another note of that title.  You can add the link first and then click it to go into the note, or you can just add a link to an existing note.  
+
+Here is a link to an existing note... [[homepage-config-01]]. Obsidian will also give you options once you type out the double square brackets. [BUT...](#BUT...)
+
+Here I will make a new link to a note the doesn;t exist yet, then click to create it... [[Wiki Links]]
+
+### BUT... 
+What happens to these Wiki Links if this markdown file is uploaded as HTML? 
 
 -----------------
