@@ -6,6 +6,9 @@ categories:
     - Life
 tags: 
     - Hello
+authors:
+  - adam
+slug: md-ideas-01
 ---
 
 # Hello World... Again
