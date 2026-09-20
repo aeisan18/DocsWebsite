@@ -41,7 +41,7 @@ Here we go!
 
 You can make what is called a wiki link by adding double square brackets around words in Obsidian.  This is a link to another note of that title.  You can add the link first and then click it to go into the note, or you can just add a link to an existing note.  
 
-Here is a link to an existing note... [[homepage-config-01]]. Obsidian will also give you options once you type out the double square brackets. [BUT](#BUT)
+Here is a link to an existing note... [[homepage-config-01]]. Obsidian will also give you options once you type out the double square brackets. (there was a link here but it didn't work)
 
 Here I will make a new link to a note the doesn;t exist yet, then click to create it... [[Wiki Links]]
 
