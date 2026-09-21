@@ -1,0 +1,1 @@
+{"mappings": [{"item": {"url": "blog/hello-world/", "title": "Hello World"}, "tags": ["Hello"]}, {"item": {"url": "blog/md-ideas-01/", "title": "Notes, Markdown and Tech Docs"}, "tags": ["Homelab", "Ideas", "Markdown"]}, {"item": {"url": "blog/hompage-1/", "title": "Homepage"}, "tags": ["Docker", "Homelab", "Homepage", "How-to"]}]}

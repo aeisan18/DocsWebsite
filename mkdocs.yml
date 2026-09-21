@@ -52,7 +52,8 @@ theme:
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
-      primary: blue grey
+      # primary: blue grey
+      primary: grey
       accent: indego
   features:
     # - toc.integrate # moves toc from right side into left seide nav

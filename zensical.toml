@@ -1,8 +1,13 @@
+############################################################################
+# PROJECT CONFIG
+############################################################################
+
 [project]
 site_url = "https://adam.eisan.us/"
 site_name = "My Super Cool Test Docs Website Project Thing"
 # site_description = "Your project description"
 site_author = "Adam Eisan"
+docs_dir = "docs"
 
 copyright = "Copyright &copy; 2026 Adam Eisan"
 
@@ -10,18 +15,38 @@ repo_url = "https://github.com/aeisan18/DocsWebsite"
 repo_name = "aeisan18/DocsWebsite"
 edit_uri = "edit/master/my-test-folder"
 
+
+############################################################################
+# NAVIGATION
+############################################################################
+
 nav = [
-  { "Get started" = "index.md" },
-  { "Markdown in 5min" = "markdown.md" },
+  { "Welcome" = [
+    "README.md",
+  ] },
+  { "Blog" = [
+    "blog/index.md",
+  ] },
+  { "Tags" = "tags.md" },
 ]
+
+############################################################################
+# CUSTOMIZATION
+############################################################################
 
 # extra_css = ["stylesheets/extra.css"]
 # extra_javascript = ["javascripts/extra.js"]
 
+############################################################################
+# THEME
+############################################################################
+
+
 [project.theme]
+logo = "assets/images/brutus-head.png"
 variant = "modern"
 # custom_dir = "overrides"
-# favicon = "images/favicon.png"
+favicon = "assets/images/brutus-head.png"
 language = "en"
 features = [
   "announce.dismiss",
@@ -39,27 +64,25 @@ features = [
   "navigation.indexes",
   "navigation.instant",
   "navigation.instant.prefetch",
-  # "navigation.instant.progress",
+  "navigation.instant.progress",
   "navigation.path",
   # "navigation.prune",
   "navigation.sections",
   # "navigation.tabs",
-  # "navigation.tabs.sticky",
+  "navigation.tabs.sticky",
   "navigation.top",
   "navigation.tracking",
   "search.highlight",
-  # "toc.follow",
+  "toc.follow",
   # "toc.integrate",
 ]
 
-logo = "assets/brutus-head.png"
+# [project.theme.icon] 
+# logo = "lucide/smile" # do not use if using custom logo
 
-# [project.theme.icon]
-# logo = "lucide/smile"
-
-# [project.theme.font]
-# text = "Inter"
-# code = "Jetbrains Mono"
+[project.theme.font]
+text = "Inter"
+code = "Jetbrains Mono"
 
 [[project.theme.palette]]
 media = "(prefers-color-scheme)"
@@ -75,6 +98,8 @@ toggle.name = "Switch to dark mode"
 [[project.theme.palette]]
 media = "(prefers-color-scheme: dark)"
 scheme = "slate"
+primary = "deep orange"
+accent = "deep orange"
 toggle.icon = "lucide/moon"
 toggle.name = "Switch to system preference"
 
@@ -85,6 +110,11 @@ toggle.name = "Switch to system preference"
 # [[project.extra.social]]
 # icon = "fontawesome/brands/mastodon"
 # link = "https://fosstodon.org/@user"
+
+
+############################################################################
+# EXTENSIONS
+############################################################################
 
 [project.markdown_extensions]
 abbr = {}
@@ -116,3 +146,19 @@ pymdownx.tabbed.alternate_style = true
 pymdownx.tabbed.combine_header_slug = true
 pymdownx.tasklist.custom_checkbox = true
 pymdownx.tilde = {}
+
+
+############################################################################
+# PLUGINS
+############################################################################
+
+[project.plugins]
+search = {}
+tags = {}
+privacy = {}
+
+[project.plugins.blog]
+archive_date_format = "yyyy"
+archive_url_date_format = "yyyy"
+post_url_format = "{slug}"
+
