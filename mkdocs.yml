@@ -39,6 +39,7 @@ theme:
     # logo: material/server
   logo: assets/images/brutus-head.png
   palette:
+    
     # Palette toggle for light mode
     - scheme: default
       toggle:
@@ -53,8 +54,10 @@ theme:
         icon: material/brightness-4
         name: Switch to light mode
       # primary: blue grey
+      # primary: grey
+      # accent: indego
       primary: grey
-      accent: indego
+      accent:  red
   features:
     # - toc.integrate # moves toc from right side into left seide nav
     - toc.follow
@@ -106,8 +109,10 @@ plugins:
 # Customization
 #########################################################################
 
-# extra_css:
-#   - stylesheets/mountain_sunrise.css
+extra_css:
+  - stylesheets/2.css
+  # - stylesheets/mountain_sunrise.css
+
 #
 
 ##########################################################################

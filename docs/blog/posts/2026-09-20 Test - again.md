@@ -8,7 +8,7 @@ tags:
     - Hello
 authors:
   - adam
-slug: md-ideas-01
+slug: md-ideas-02
 ---
 
 # Hello World... Again
